@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0da95f8c-36d8-4ea2-b5e8-c5932351d340" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coords" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geo100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api/geocoding_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api/isochrone_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api/matrix_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api/routing_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api/solution_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api/vrp_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/api_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/activity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/cost_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/cost_matrix_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/cost_matrix_data_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/geocoding_location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/geocoding_point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/geocoding_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/gh_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/gh_error_hints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/isochrone_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/isochrone_response_polygon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/isochrone_response_polygon_geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/isochrone_response_polygon_properties.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/job_id.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/matrix_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/matrix_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/model_break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/objective.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/relation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/response_coordinates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/response_coordinates_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/response_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/response_instruction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/response_instructions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/route.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/route_point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/route_response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/route_response_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/routing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/shipment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/solution_unassigned.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/time_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/vehicle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/models/vehicle_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger_client/rest.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Last_mile_delivery$dist.coverage" NAME="dist Coverage Results" MODIFIED="1541445308645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="vrp_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swagger_client/api/vrp_api.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="dist.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matr.out" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matr.out">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="coords" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coords">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="geo100.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geo100.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/geo100.txt" />
+        <option value="$PROJECT_DIR$/dist.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="522" />
+    <option name="y" value="130" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Last-mile-delivery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Last-mile-delivery" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Универ\6. Last mile\Last-mile-delivery" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Last-mile-delivery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0da95f8c-36d8-4ea2-b5e8-c5932351d340" name="Default" comment="" />
+      <created>1541443176134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541443176134</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/swagger_client/api/vrp_api.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_breakpoints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/times">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geo100.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coords">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matr.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
