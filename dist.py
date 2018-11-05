@@ -18,7 +18,7 @@ VEHICLE = 'car'
 
 
 def dist_matr():
-    pts_f = open("coords", "r")
+    pts_f = open("Data/geo100.txt", "r")
     l = pts_f.readline()[:-1]
 
     point = []
@@ -33,10 +33,10 @@ def dist_matr():
         # Matrix API
         api_response = api_instance.matrix_get(KEY, point=point, out_array=OUT_ARRAY, vehicle=VEHICLE)
         if api_response.distances is not None:
-            #f = open("matr.out", "w")
-            f = open("times", "w")
-            for t in api_response.times:
-                f.write(t + '/n')
+            #f = open("Data/matr.out", "w")
+            f = open("Data/times", "w")
+            for t in api_response.distances:
+                f.write(str(t))
             f.close()
         pprint(api_response)
 
